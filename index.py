@@ -4,8 +4,8 @@ import shutil
 import subprocess
 
 # Configure folder paths
-camera_folder = "/path/to/camera/folder"  # Replace with the actual folder path
-uploaded_folder = "/path/to/uploaded/folder"  # Replace with the actual folder path
+camera_folder = "/path/to/camera/folder"
+uploaded_folder = "/path/to/uploaded/folder"
 upload_url = "https://projects.benax.rw/f/o/r/e/a/c/h/p/r/o/j/e/c/t/s/4e8d42b606f70fa9d39741a93ed0356c/iot_testing_202501/upload.php"
 
 # Ensure the uploaded folder exists
