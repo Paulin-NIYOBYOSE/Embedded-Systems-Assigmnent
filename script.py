@@ -4,8 +4,8 @@ import shutil
 import subprocess
 
 # Configure folder paths
-camera_folder = "/home/paulin/Documents/MY DOCUMENTS/Embedded/Camera"
-uploaded_folder = "//home/paulin/Documents/MY DOCUMENTS/Embedded/Uploaded"
+camera_folder = "/home/paulin/Documents/CODE/GITHUB REPOS/Embedded Systems Assignment/Pictures/Camera"
+uploaded_folder = "/home/paulin/Documents/CODE/GITHUB REPOS/Embedded Systems Assignment/Pictures/Uploaded"
 upload_url = "https://projects.benax.rw/f/o/r/e/a/c/h/p/r/o/j/e/c/t/s/4e8d42b606f70fa9d39741a93ed0356c/iot_testing_202501/upload.php"
 
 # Ensure the uploaded folder exists
@@ -34,7 +34,7 @@ def upload_picture(file_path):
         return False
 
 
-def monitor_and_upload():
+def monitor_and_upload  ():
     """
     Monitor the folder, upload pictures, and move them to the uploaded folder.
     """
